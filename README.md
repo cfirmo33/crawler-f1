@@ -4,7 +4,8 @@ Crawler of F1 official site, to get statistics from drivers and teams.
 
 ## Getting Started
 
-Nothing.
+The goal is collect information about drivers and teams, yours history and fourth, and once with data to persist in database through MongoDB. Used famous Scrapy library to spider site [F1](https://www.formula1.com).
+
 
 ### Prerequisites
 
