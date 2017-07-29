@@ -1,0 +1,14 @@
+version: '3'
+services:
+  crawler:
+    build: .
+    command:
+    - crawler-f1.sh
+    volumes:
+    - .:/usr/src/app
+    links:
+    - mongo
+  mongo:
+    image: mongo
+    ports:
+    - "27017:27017"
